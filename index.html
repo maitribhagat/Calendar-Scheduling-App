@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendar Scheduling App</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="calendar-container">
+    <h1>Available Time Slots</h1>
+    <div class="calendar">
+      <!-- We'll dynamically generate the days -->
+    </div>
+  </div>
+      
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Schedule Appointment</h2>
+    <ul id="appointment-list"></ul>
+    <form id="appointment-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+      <button type="submit">Schedule</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
