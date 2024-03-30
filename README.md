@@ -22,6 +22,7 @@ Schedule appointments by selecting a date and time in the modal window.
 View booked appointments displayed below the respective days in the calendar.
 
 Contributing:
+
 Contributions are welcome! Feel free to fork the repository and submit pull requests for any enhancements, bug fixes, or feature additions.
 
 file:///C:/Users/maitri/Desktop/proj4/index.html
